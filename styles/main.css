@@ -69,3 +69,25 @@ li {
 #email {
     color: var(--mainTextColor);
 }
+
+#socials--list {
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+#socials--list a {
+    font-size: 0.9em;
+    color: var(--secondaryTextColor);
+    transition: 0.3s;
+}
+
+#socials--list a:hover {
+    color: var(--mainLinkColor);
+}
+
+#qualifications--list {
+    list-style: none;
+}
